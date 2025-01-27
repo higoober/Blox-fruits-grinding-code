@@ -9,46 +9,27 @@ _G.KaitunConfig = {
       ["Soul Guitar"] = true,
       ["Pole (1st Form)"] = false,
       ["Upgrading Race"] = true,
-      ["Farming Boss Drop When Maxed Level"] = false,
+      ["Farming Boss Drop When Maxed Level"] = true,
       ["Rainbown Haki"] = false,
-      ["Cursed Dual Katana"] = true,
-      ["Buy accessories"] = true,
-      ["Buy Hakis"] = true,
+      ["Cursed Dual Katana"] = false,
+      ["Buy accessories"] = false,
+      ["Buy Hakis"] = false,
       ["Buy Guns"] = false,
       ["Buy Swords"] = false,
       ["Upgrade Weapons"] = false,
       ["Farming Boss Drops When X2 Expired"] = false,
       ["Mirage Puzzle"] = false,
       ["Saber"] = false
-    },
     ["Fps Boosting"] = true,
     ["Fruit Snipping"] = true,
-    ["Fruit Eating"] = true,
+    ["Fruit Eating"] = false,
     ["High Ping Hop"] = true,
-    ["Fruit Choosen"] = {
-      ["T-Rex-T-Rex"] = true,
-      ["Shadow-Shadow"] = true,
-      ["Mammoth-Mammoth"] = true,
-      ["Gravity-Gravity"] = true,
-      ["Spirit-Spirit"] = true,
-      ["Dark-Dark"] = true,
-      ["Rocket-Rocket"] = false,
-      ["Control-Control"] = true,
-      ["Dough-Dough"] = true,
-      ["Leopard-Leopard"] = true,
-      ["Venom-Venom"] = true,
-      ["Dragon-Dragon"] = true,
-      ["Diamond-Diamond"] = false,
-      ["Kitsune-Kitsune"] = true,
-      ["Spring-Spring"] = false
-    },
+    ["Fruit Choosen"] = {magma}
     ["Player Nearing Hop"] = true,
     ["Allow Stored"] = true,
-    ["Race Choosen"] = {
-      ["Human"] = true
+    ["Race Choosen"] = {shark}
+      ["Human"] = false
     },
     ["Race Snipping"] = true,
     ["Tween Speed"] = 350,
     ["Same Y Tween"] = true
-}
-loadstring(game:HttpGet('https://raw.githubusercontent.com/memaybeohub/NewPage/main/Kaitun.lua'))()
